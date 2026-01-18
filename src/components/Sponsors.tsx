@@ -16,7 +16,7 @@ export default function Sponsors() {
     {
       tier: 'SILVER_SPONSORS',
       sponsors: [
-        { name: 'Your Company Here', logo: '⚡' },
+        { name: 'Hackviser', logo: '../assets/logo1.png' },
         { name: 'Your Company Here', logo: '🌐' },
         { name: 'Your Company Here', logo: '💻' }
       ]
