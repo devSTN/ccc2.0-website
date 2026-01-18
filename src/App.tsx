@@ -12,7 +12,6 @@ function App() {
       <Hero />
       <About />
       <EventDetails />
-      <Schedule />
       <Sponsors />
       <FAQ />
       <Footer />
