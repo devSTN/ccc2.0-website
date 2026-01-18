@@ -45,27 +45,27 @@ export default function FAQ() {
 
       <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold text-green-400 mb-4 pixelated terminal-glow">
+          <h2 className="text-4xl md:text-5xl font-bold text-cyan-400 mb-4 pixelated terminal-glow">
             {'>>> FAQ.HELP'}
           </h2>
-          <div className="w-32 h-1 bg-green-500 mx-auto"></div>
+          <div className="w-32 h-1 bg-cyan-500 mx-auto"></div>
         </div>
 
         <div className="space-y-4">
           {faqs.map((faq, index) => (
             <div
               key={index}
-              className="bg-slate-800/30 border-4 border-green-500/40 hover:border-green-400 overflow-hidden transition-all duration-300"
+              className="bg-slate-800/30 border-4 border-cyan-500/40 hover:border-cyan-400 overflow-hidden transition-all duration-300"
             >
               <button
                 onClick={() => setOpenIndex(openIndex === index ? null : index)}
                 className="w-full px-6 py-5 flex items-center justify-between text-left"
               >
-                <span className="text-lg font-bold text-green-400 pr-4 pixelated">
+                <span className="text-lg font-bold text-cyan-400 pr-4 pixelated">
                   ? {faq.question}
                 </span>
                 <ChevronDown
-                  className={`w-5 h-5 text-green-400 flex-shrink-0 transition-transform duration-300 ${
+                  className={`w-5 h-5 text-cyan-400 flex-shrink-0 transition-transform duration-300 ${
                     openIndex === index ? 'transform rotate-180' : ''
                   }`}
                 />
@@ -76,8 +76,8 @@ export default function FAQ() {
                   openIndex === index ? 'max-h-96' : 'max-h-0'
                 }`}
               >
-                <div className="px-6 pb-5 border-t-2 border-green-500/40">
-                  <p className="text-green-300 leading-relaxed pixelated">
+                <div className="px-6 pb-5 border-t-2 border-cyan-500/40">
+                  <p className="text-cyan-300 leading-relaxed pixelated">
                     {faq.answer}
                   </p>
                 </div>
@@ -87,8 +87,8 @@ export default function FAQ() {
         </div>
 
         <div className="mt-12 text-center">
-          <p className="text-green-600 mb-4 pixelated">Still have questions?</p>
-          <button className="px-6 py-3 bg-green-900/30 text-green-400 font-bold pixelated border-4 border-green-500 hover:bg-green-900/50 transition-all duration-300 hover:border-green-400">
+          <p className="text-cyan-600 mb-4 pixelated">Still have questions?</p>
+          <button className="px-6 py-3 bg-cyan-900/30 text-cyan-400 font-bold pixelated border-4 border-cyan-500 hover:bg-cyan-900/50 transition-all duration-300 hover:border-cyan-400">
             [CONTACT US]
           </button>
         </div>
