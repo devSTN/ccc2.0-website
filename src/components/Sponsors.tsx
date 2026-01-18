@@ -5,25 +5,19 @@ import interviewbuddy from '../assets/sponsors/interviewbuddy.png';
 
 export default function Sponsors() {
   const sponsorTiers = [
-    {
-      tier: 'PLATINUM_SPONSORS',
-      sponsors: [
-        { name: 'Your Company Here', logo: '🔒' }
-      ]
-    },
+    
     {
       tier: 'GOLD_SPONSORS',
       sponsors: [
-        { name: 'Your Company Here', logo: '🛡️' },
-        { name: 'Your Company Here', logo: '🔐' }
+        { name: 'XYZ Domains', logo: xyzdomains },
+        { name: 'Code Crafters', logo: codecrafters }
       ]
     },
     {
       tier: 'SILVER_SPONSORS',
       sponsors: [
         { name: 'Hackviser', logo: hackviser },
-        { name: 'Interview Buddy', logo: interviewbuddy },
-        { name: 'Your Company Here', logo: '💻' }
+        { name: 'Interview Buddy', logo: interviewbuddy }
       ]
     }
   ];
