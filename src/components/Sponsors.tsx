@@ -83,10 +83,14 @@ export default function Sponsors() {
               Contact us to learn about sponsorship opportunities.
             </p>
             <button
-              className="px-8 py-3 bg-cyan-500 text-black font-bold pixelated border-4 border-cyan-400 hover:bg-cyan-400 transition-all duration-300 hover:scale-110"
-              style={{ boxShadow: '0 0 15px rgba(34, 211, 238, 0.6)' }}
-            >
-              [BECOME A SPONSOR]
+              <a
+                href="mailto:teamcentinel@srmist.edu.in?subject=Code Craft Chase 2.0 Sponsorship"
+                className="px-8 py-3 bg-cyan-500 text-black font-bold pixelated border-4 border-cyan-400 hover:bg-cyan-400 transition-all duration-300 hover:scale-110"
+                style={{ boxShadow: '0 0 15px rgba(34, 211, 238, 0.6)' }}
+              >
+                [BECOME A SPONSOR]
+              </a>
+
             </button>
           </div>
         </div>
