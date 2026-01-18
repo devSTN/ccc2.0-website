@@ -1,3 +1,8 @@
+import hackviser from '../assets/sponsors/hackviser.png';
+import codecrafters from '../assets/sponsors/codecrafters.png';
+import xyzdomains from '../assets/sponsors/xyzdomains.png';
+import interviewbuddy from '../assets/sponsors/interviewbuddy.png';
+
 export default function Sponsors() {
   const sponsorTiers = [
     {
