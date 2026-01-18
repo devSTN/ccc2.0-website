@@ -65,9 +65,12 @@ export default function Sponsors() {
                     key={sponsorIndex}
                     className="group p-8 bg-slate-800/30 border-4 border-cyan-500/40 hover:border-cyan-400 transition-all duration-300 flex flex-col items-center justify-center min-h-[200px] hover:transform hover:scale-105"
                   >
-                    <div className="text-6xl mb-4 group-hover:scale-110 transition-transform duration-300">
-                      {sponsor.logo}
-                    </div>
+                    <img
+                      src={sponsor.logo}
+                      alt={sponsor.name}
+                      className="h-20 object-contain mb-4"
+                    />
+
                     <p className="text-cyan-300 text-center pixelated">{sponsor.name}</p>
                   </div>
                 ))}
